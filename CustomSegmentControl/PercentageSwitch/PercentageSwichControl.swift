@@ -41,7 +41,7 @@ class PercentageSwichControl: UIControl {
     }()
     
     private var previousLocation = CGPoint()
-    private var offset: CGFloat = 0.0
+    private var offset: CGFloat = 50.0
     
     private var minimumValue: CGFloat = 0.0
     private var maximumValue: CGFloat = 1.0
